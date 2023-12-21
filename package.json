@@ -1,0 +1,23 @@
+{
+  "name": "automation-testing",
+  "version": "1.0.0",
+  "description": "Cypress Automation",
+  "main": "index.js",
+  "scripts": {
+    "triggerAllTest-headless": "npx cypress run",
+    "triggerAllTests-headed": "npx cypress run --headed",
+    "triggerAllTests-chrome": "npx cypress run --browser chrome",
+    "triggerAllTests-dashboard": "npx cypress run --record --key 48a86da3-bcfe-47d6-807d-4cd348eb3360",
+    "triggerAllTests-webdriveruni": "npx cypress run --spec cypress/integration/webdruver-uni/*"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^4.12.1",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-multi-reporters": "^1.6.4",
+    "cypress-plugin-retries": "^1.5.2",
+    "mocha": "^10.2.0",
+    "mocha-junit-reporter": "^2.2.1"
+  }
+}
