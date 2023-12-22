@@ -1,6 +1,6 @@
 /// <reference types="cypress"/>
 
-describe("Cypress web security", () => {
+describe("Test for hooks", () => {
   before(() => {
     cy.log("runs once before all tests in the block");
   });
